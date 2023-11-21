@@ -1,4 +1,4 @@
-package model;
+package dev.spring.core.model;
 
 public class Course {
 

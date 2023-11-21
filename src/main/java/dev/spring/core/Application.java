@@ -1,7 +1,9 @@
-import config.AppConfig;
+package dev.spring.core;
+
+import dev.spring.core.config.AppConfig;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
-import service.CourseService;
+import dev.spring.core.service.CourseService;
 
 public class Application {
     public static void main(String[] args) {

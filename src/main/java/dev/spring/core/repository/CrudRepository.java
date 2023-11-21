@@ -1,4 +1,4 @@
-package repository;
+package dev.spring.core.repository;
 
 import java.util.List;
 

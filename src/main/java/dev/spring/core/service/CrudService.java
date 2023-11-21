@@ -1,4 +1,4 @@
-package service;
+package dev.spring.core.service;
 
 import java.util.List;
 import java.util.Optional;

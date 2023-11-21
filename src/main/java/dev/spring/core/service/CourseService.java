@@ -1,12 +1,13 @@
-package service;
+package dev.spring.core.service;
 
-import model.Course;
-import repository.CourseRepository;
+import dev.spring.core.model.Course;
+import org.springframework.stereotype.Service;
+import dev.spring.core.repository.CourseRepository;
 
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
+@Service
 public class CourseService implements CrudService<Course> {
 
 
